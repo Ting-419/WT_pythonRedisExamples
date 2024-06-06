@@ -3,7 +3,7 @@ import json
 import redis
 
 # Connect to Redis
-redis_client = redis.StrictRedis(host='192.168.0.106', port=6379, db=0)
+redis_client = redis.StrictRedis(host='192.168.0.107', port=6379, db=0)
 
 
 def create_poll():
